@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+<body>
+    <div class="container">
+
+        <header class="headerBoxes">
+            <div class="headerBox1">Network</div>
+            <div class="headerBox2">Your Feed</div>
+        </header>
+
+        <main class="allContentBox">
+            
+            <aside class="asideBox">
+                <div class="asideContent asideBox1"><img src="/general_pack_NEW_glyph_profile-512.webp" alt="A placeholder profile picture" height="200" width="200"></div>
+                <div class="asideContent asideBox2"><a href="#">Add an avatar</a></div>
+                <div class="asideContent asideBox3">James Doe</div>
+            </aside>
+            
+            <div class="mainBox">
+
+                <article class="posts post1">
+                    <div class="topBox">
+                        <div class="name">Neil M</div>
+                        <div id="likeTotal1" class="numberOfLikes">9 like(s)</div>
+                        <div id="likeButton1" class="likeButton" onclick="likeClick(this)">Like</div>
+                    </div>
+                    <div class="bottomBox">I just set up this new discord bot, let me know what you think. <a href="#">link</a></div>
+                </article>
+
+                <article class="posts post2">
+                    <div class="topBox">
+                        <div class="name">Nicole K</div>
+                        <div id="likeTotal2" class="numberOfLikes">12 like(s)</div>
+                        <div id="likeButton2" class="likeButton" onclick="likeClick(this)">Like</div>
+                    </div>
+                    <div class="bottomBox">Just finished my <a href="#">next comic</a>, check it out.</div>
+                </article>
+
+                <article class="posts post3">
+                    <div class="topBox">
+                        <div class="name">Jim R</div>
+                        <div id="likeTotal3" class="numberOfLikes">9 like(s)</div>
+                        <div id="likeButton3" class="likeButton" onclick="likeClick(this)">Like</div>
+                    </div>
+                    <div class="bottomBox">I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</div>
+                </article>
+
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Comic Neue', cursive;
+}
+
+.container {
+    height: 100vh;
+    width: 70vw;
+    margin-left: 14.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header + Title */
+
+.headerBoxes {
+    height: 20%;
+    width: 100%;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.headerBox1 {
+    flex: 1;
+    justify-content: center;
+    padding: 10px 20px 0px 20px;
+    background-color: black;
+    color: white;
+}
+.headerBox2 {
+    flex: 1;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Aside and main content */
+
+.allContentBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.asideBox {
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 19px;
+    height: 60%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.asideContent {
+    margin-top: 15%;
+    text-align: center;
+}
+.asideBox1 {
+    flex: 3;
+}
+.asideBox2 {
+    flex: 1;
+    width: 100%;
+    font-size: 25px;
+}
+.asideBox3 {
+    flex: 2;
+    width: 100%;
+    font-size: 35px;
+}
+
+.mainBox {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+.posts {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.topBox {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.name {
+    flex: 2;
+    font-size: 35px;
+}
+.numberOfLikes {
+    flex: 1;
+    font-size: 25px;
+    padding: 0px 15px 0px 15px;
+}
+.likeButton {
+    flex: 1;
+    height: 35px;
+    font-size: 25px;
+    padding-top: 5px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 2px;
+    box-shadow: 2px 2px 1px 1px;
+    background-color: rgb(255, 217, 102);
+}
+.bottomBox {
+    flex: 1;
+    justify-content: center;
+    font-size: 25px;
+}
